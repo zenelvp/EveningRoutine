@@ -59,7 +59,7 @@ export default function GuaranteeSection() {
           You have nothing to lose except another month of exhausted mornings
           and foggy thinking.
         </p>
-        <div className="w-max text-center block lg:hidden mt-12">
+        <div className="lg:w-max text-center block lg:hidden mt-12">
           <Button
             href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/"
             label=" SECURE MY SLEEP TRANSFORMATION NOW"
