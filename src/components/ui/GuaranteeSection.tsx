@@ -11,6 +11,16 @@ export default function GuaranteeSection() {
         <h2 className="text-3xl md:text-4xl font-semibold mb-6 leading-tight">
           <TbBadge /> 30-Day Sharp Executive <br /> Guarantee
         </h2>
+        <div className="w-full">
+          <Button
+            href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/"
+            label=" SECURE MY SLEEP TRANSFORMATION NOW"
+          />
+
+          <p className="text-sm text-gray-300 mt-5">
+            Instant Lifetime Access - Limited Time Bonus Included
+          </p>
+        </div>
       </div>
 
       {/* Right Side */}
@@ -49,16 +59,6 @@ export default function GuaranteeSection() {
           You have nothing to lose except another month of exhausted mornings
           and foggy thinking.
         </p>
-        <div className="text-center">
-          <Button
-            href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/"
-            label=" SECURE MY SLEEP TRANSFORMATION NOW"
-          />
-
-          <p className="text-sm text-gray-300 mt-5">
-            Instant Lifetime Access - Limited Time Bonus Included
-          </p>
-        </div>
       </div>
     </div>
   );
