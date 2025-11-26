@@ -79,6 +79,7 @@ export default function Hero() {
 
         <Button
           label="START MY 4-WEEK TRANSFORMATION NOW"
+          href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/"
           className="mt-12 px-6 py-3 text-sm sm:text-base md:text-lg"
         />
 

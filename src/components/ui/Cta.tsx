@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Cta() {
   return (
     <section className="space">
@@ -17,9 +19,11 @@ export default function Cta() {
             career and family deserve.
           </p>
 
-          <button className="mt-6 bg-black text-white font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition">
-            SECURE MY SLEEP TRANSFORMATION NOW
-          </button>
+          <Link href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/">
+            <button className="mt-6 bg-black text-white font-semibold py-3 px-6 rounded-full hover:bg-gray-800 transition cursor-pointer">
+              SECURE MY SLEEP TRANSFORMATION NOW
+            </button>
+          </Link>
 
           <p className="text-xs text-gray-700 mt-4">
             30-Day Money-Back Guarantee • Instant Access • Over 2,000 Men

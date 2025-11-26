@@ -1,10 +1,11 @@
 "use client";
 
 import { TbBadge } from "react-icons/tb";
+import Button from "../button/Button";
 
 export default function GuaranteeSection() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#00D378]/10 border border-[#00D378] p-8 mt-12 rounded-3xl">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center bg-[#00D378]/10 border border-[#00D378] p-8 my-12 rounded-3xl ">
       {/* Left Side */}
       <div className="flex flex-col justify-between gap-8 h-full">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6 leading-tight">
@@ -49,9 +50,10 @@ export default function GuaranteeSection() {
           and foggy thinking.
         </p>
         <div className="text-center">
-          <button className="bg-[#C8FF70] text-black font-semibold px-8 py-3 rounded-full hover:opacity-90 transition-all w-min  md:w-full">
-            SECURE MY SLEEP TRANSFORMATION NOW
-          </button>
+          <Button
+            href="https://whop.com/checkout/5assdGvu4UWeuvECwV-yFpp-9UCD-OGWH-U0F5ooQYdxKk/"
+            label=" SECURE MY SLEEP TRANSFORMATION NOW"
+          />
 
           <p className="text-sm text-gray-300 mt-5">
             Instant Lifetime Access - Limited Time Bonus Included
