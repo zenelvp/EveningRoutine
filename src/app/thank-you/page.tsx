@@ -29,7 +29,10 @@ export default function ThankYouPage() {
           This is the moment your nights start restoring you instead of draining
           you.
         </p>
-        <Button label="👉 Get Instant Access to Your Evening Routine Program" />
+        {/* <Button
+          href="/"
+          label="👉 Get Instant Access to Your Evening Routine Program"
+        /> */}
       </div>
 
       {/* Upsell Section */}
@@ -195,7 +198,10 @@ export default function ThankYouPage() {
         </p>
 
         <div className="text-center">
-          <Button label="👉 YES — Upgrade My Access & Get The Free Morning Vitality Reset (Instant access to the full course + ALL free bonuses)" />
+          <Button
+            href="https://whop.com/checkout/plan_pwcvPgbnYsmgU"
+            label="👉 YES — Upgrade My Access & Get The Free Morning Vitality Reset (Instant access to the full course + ALL free bonuses)"
+          />
         </div>
       </div>
 
