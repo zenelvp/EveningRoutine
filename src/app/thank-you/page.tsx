@@ -156,10 +156,7 @@ export default function ThankYouPage() {
             >
               <h3 className="font-semibold text-lg mb-2">✔ You Already Have</h3>
               <ul className="list-disc list-inside mb-4">
-                <li>
-                  The Ultimate 4‑Week Evening Routine For Men 35+ (Get Instant
-                  Access above)
-                </li>
+                <li>The Ultimate 4‑Week Evening Routine For Men 35+</li>
               </ul>
 
               <h3 className="font-semibold text-lg mb-2">
