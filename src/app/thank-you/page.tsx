@@ -207,7 +207,7 @@ export default function ThankYouPage() {
         className="mt-16 text-center text-sm"
         style={{ color: "var(--color-desc)" }}
       >
-        &copy; {new Date().getFullYear()} Your Company Name. All rights
+        &copy; {new Date().getFullYear()} The Ultimate 4-Week Evening Routine. All rights
         reserved.
       </footer>
     </div>
